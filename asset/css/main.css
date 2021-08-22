@@ -528,7 +528,8 @@
     position: relative;
 }
 
-.header__search-select:hover .header__search-option{
+.header__search-select:hover .header__search-option,
+.header__search-select:active .header__search-option{
     display: block;
     animation: fadeIn linear 0.3s;
 }
@@ -594,7 +595,9 @@
     border: 2px solid #f7442e;
 }
 
-.header__cart-wrap:hover .heard__cart-list {
+.header__cart-wrap:hover .heard__cart-list,
+.header__cart-wrap:active .heard__cart-list,
+.header__cart-wrap:focus .heard__cart-list {
     display: block;
 }
 
