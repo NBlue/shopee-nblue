@@ -148,5 +148,15 @@
     .mobile-footer__padding{
         padding: 0 16px;
     }
+    .footer__heading{
+        text-align: center;
+    }
+    .footer__item-link,
+    .footer__download{
+        justify-content: center;
+    }
+    .footer__download-app{
+        flex: 0;
+    }
 }
 

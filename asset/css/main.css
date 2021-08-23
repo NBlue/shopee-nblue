@@ -595,7 +595,7 @@
     border: 2px solid #f7442e;
 }
 
-.header__cart-wrap:hover .heard__cart-list,
+/* .header__cart-wrap:hover .heard__cart-list, */
 .header__cart-wrap:active .heard__cart-list,
 .header__cart-wrap:focus .heard__cart-list {
     display: block;
